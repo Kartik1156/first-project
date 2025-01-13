@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+.nav{   
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 50px;
+    gap: 20px;
+}
+.nav h4{
+    font-size: 20px;
+    font-weight: 5000;
+}
+.nav i{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+.center{
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.center h1{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+}
+.centre1{ 
+    width: 100%; 
+    padding-left: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.centre1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    
+}
+.right{
+    
+    width: 25%;
+
+}
+.elem{
+    margin: 5px;
+    border-top: 2px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.elem a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.elem i {
+    font-size: 25px;
+    font-weight: 500px;
+    opacity: 0;
+}
+
+.elem:hover i {
+    opacity: 1;
+}
+.elem:hover {
+    background-color: gainsboro;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+.bottom{
+    height: 40%;
+    width: 100%;
+    background-color: red;
+}
